@@ -57,7 +57,7 @@ The modeline feature allows to specify custom editor options near the start or
 end of a file. This feature is enabled by default and applied to all file types,
 including plain `.txt`. A typical modeline:
 
-    /* vim: set textwidth=80 tabstop=8 */
+    /* vim: set textwidth=80 tabstop=8: */
 
 For security reasons, only a subset of options is permitted in modelines, and
 if the option value contains an expression, it is executed in a sandbox: [[1]]
