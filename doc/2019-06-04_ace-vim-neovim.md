@@ -6,7 +6,7 @@ Vim/Neovim Arbitrary Code Execution via Modelines
 ```
 Product: Vim < 8.1.1365, Neovim < 0.3.6
 Type:    Arbitrary Code Execution
-CVE:     - 
+CVE:     CVE-2019-12735
 Date:    2019-06-04
 Author:  Arminius (@rawsec)
 ```
@@ -129,6 +129,9 @@ Timeline
     - 2019-05-22 Vim and Neovim maintainers notified
     - 2019-05-23 Vim patch released
     - 2019-05-29 Neovim patch released
+    - 2019-06-05 CVE ID CVE-2019-12735 assigned
+
+Also see description of [CVE-2019-12735](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12735).
 
 [1]: https://github.com/vim/vim/blob/5c017b2de28d19dfa4af58b8973e32f31bb1477e/runtime/doc/options.txt#L582
 [2]: https://github.com/vim/vim/blob/5c017b2de28d19dfa4af58b8973e32f31bb1477e/runtime/doc/eval.txt#L13050
