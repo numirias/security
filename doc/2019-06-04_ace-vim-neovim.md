@@ -127,8 +127,8 @@ Check if you have modelines enabled by opening vim and entering
 
 ```:set modeline?```
 
-If it returns nomodeline, you are not vulnerable.  If you are vulnerable or want
-to ensure your security with this issue, add these lines to your vimrc:
+If vim returns ```nomodeline```, you are not vulnerable.  If you are vulnerable
+or want to ensure your security with this issue, add these lines to your vimrc:
 
 ```
 :set modelines=0
