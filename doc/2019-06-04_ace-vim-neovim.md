@@ -123,6 +123,18 @@ nomodeline`), to use the [securemodelines](https://github.com/ciaranm/securemode
 plugin, or to disable `modelineexpr` (since patch 8.1.1366, Vim-only) to disallow
 expressions in modelines.
 
+Check if you have modelines enabled by opening vim and entering
+
+```:set modeline?```
+
+If vim returns ```nomodeline```, you are not vulnerable.  If you are vulnerable
+or want to ensure your security with this issue, add these lines to your vimrc:
+
+```
+set modelines=0
+set nomodeline
+```
+
 Timeline
 --------
 
