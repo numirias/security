@@ -131,8 +131,8 @@ If vim returns ```nomodeline```, you are not vulnerable.  If you are vulnerable
 or want to ensure your security with this issue, add these lines to your vimrc:
 
 ```
-:set modelines=0
-:set nomodeline
+set modelines=0
+set nomodeline
 ```
 
 Timeline
