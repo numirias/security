@@ -54,8 +54,11 @@ Details
 -------
 
 The modeline feature allows to specify custom editor options near the start or
-end of a file. This feature is enabled by default and applied to all file types,
-including plain `.txt`. A typical modeline:
+end of a file. This feature is enabled by default and applied to all file
+types, including plain `.txt`. (Note that some OSes ship with a custom vimrc
+that explicitly sets `nomodelines`, e.g. Debian. So if you use their custom
+default vimrc instead of Vim's native defaults, you're safe.) A typical
+modeline:
 
     /* vim: set textwidth=80 tabstop=8: */
 
