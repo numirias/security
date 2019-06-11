@@ -10,6 +10,21 @@ More to come...
 
 ---
 
+
+
+CTF write-ups:
+
+
+
+- [Google CTF 2017 | Geokitties v2](https://github.com/numirias/ctf/blob/master/writeup-google-ctf-2017-geokitties-v2.md)
+
+
+
+- [*Many more...*](https://security.meta.stackexchange.com/search?tab=votes&q=user%3a95381%20is%3aanswer%20%5bwrite-up%5d)
+
+
+[My answers](https://security.stackexchange.com/users/95381/arminius?tab=answers)  on Security.SE (many trivial, but also a few interestinig ones).
+
 Some older bugs:
 
 - 2017-01-25 [Google Chrome: Address spoofing in Omnibox](https://bugs.chromium.org/p/chromium/issues/detail?id=673971
@@ -28,9 +43,3 @@ Some older bugs:
 - 2015-02-24 [Mozilla Firefox: Local files or privileged URLs in pages can be opened into new tabs](https://www.mozilla.org/en-US/security/advisories/mfsa2015-25/) (CVE-2015-0821)
 
 - 2015-02-24 [Mozilla Firefox: Arbitrary File Read Vulnerability via Form Autocomplete](https://www.mozilla.org/en-US/security/advisories/mfsa2015-24/) (CVE-2015-0822)
-
-CTF write-ups:
-
-- [Google CTF 2017 | Geokitties v2](https://github.com/numirias/ctf/blob/master/writeup-google-ctf-2017-geokitties-v2.md)
-
-- [*Many more...*](https://security.meta.stackexchange.com/search?tab=votes&q=user%3a95381%20is%3aanswer%20%5bwrite-up%5d)
